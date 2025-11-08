@@ -43,7 +43,7 @@ function efectoHabilidades() {
 }
 document.getElementById("descargarCV").addEventListener("click", function () {
   const enlace = document.createElement("a");
-  enlace.href = "assets/cv.pdf";
+  enlace.href = "assets/CV Abraham Rendon.pdf";
   enlace.download = "Abraham_Rendon_Tellez_Giron_CV.pdf";
   enlace.click();
 });
